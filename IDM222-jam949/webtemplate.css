@@ -1,0 +1,121 @@
+@import '../fonts/stylesheet.css';
+@font-face {
+    font-family: Segoe UI;
+    src: url(Segoe-UI.ttf);
+}
+@font-face {
+    font-family: Merriweather Sans SemiBold;
+    src: url(MerriweatherSans-SemiBold.ttf);
+}
+body {
+    text-align: left;
+    background-color: #36a2be;
+    margin: 0;
+   
+}
+
+a:hover {
+    color: #D10404;
+    text-decoration: none;
+}
+a:link {
+    color: black;
+}
+
+.about {
+    border-width: 1em;
+    font-size: 1 rem;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    padding: 5rem 0;
+    max-width: 750px;
+    bottom: 0;
+}
+
+.art { 
+    display: grid;
+    grid-template-columns: repeat(autofill, minmax (250px, 1fr));
+    grid-gap: 1rem;
+    padding: 5em 1rem 1rem;
+}
+p {
+    margin: 0 0 .5rem;
+}
+
+h1 {
+    font-family: 'Merriweather Sans SemiBold';
+    font-size: 3.5rem;
+    text-align: center;
+    width: auto;
+    display: inline-block;
+    margin: 8rem;
+    color: white
+}
+
+h2 {
+    color: #ffffff;
+    font-family: 'Calluna';
+    font-size: 1.9rem;
+    line-height: 1.6;
+    margin: 0;
+    
+}
+
+h3 {
+font-family: 'Calluna';
+font-size: 1.6rem;
+margin:0;
+}
+
+h4 {
+    font-family: 'Calluna';
+    font-size: 1.75rem;
+}
+
+h5 {
+    font-family: 'Calluna';
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: -150px;
+}
+.pictures {
+    width: 100%;
+    position:initial;
+    display: grid;
+    grid-gap: 1rem;
+    margin: auto;
+}
+.portrait {
+    width: 300px;
+    height: 50%;
+    position: relative;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.navi {
+    font-family: 'Segoe Ui';
+    background-color: #36be51;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: auto;
+    z-index:100;
+   
+}
+
+.navi a {
+    float: left;
+    text-align: center;
+    padding: 20px 10px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.resume {
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 150%;
+}
